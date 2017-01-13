@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shared Transition Playground</string>
+    <string name="activity_to_activity">Activity to Activity</string>
+    <string name="fragment_to_fragment">Fragment to Fragment</string>
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta porta ligula quis convallis. Fusce dictum rhoncus ornare. Cras justo augue, finibus id accumsan pharetra, viverra ut justo. Sed quis est eget enim ultricies sollicitudin quis in justo. Nam gravida dui sit amet vestibulum suscipit. Aenean nec leo vel massa porta varius. Aenean convallis a enim faucibus lacinia. Aliquam auctor urna libero, at venenatis dui dictum a.</string>
+    <string name="item_x_of_x">Item %1$d of %2$d</string>
+</resources>

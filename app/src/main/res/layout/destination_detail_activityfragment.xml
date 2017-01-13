@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- It would look better if the images didn't have to have white backgrounds (but transparent PNGs instead) -->
+    <com.target.sharedtransitionplayground.view.GlideImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_detail_size"
+        android:background="@android:color/white"
+        android:transitionName="thumbnail_view"
+        tools:background="#8000000"
+        tools:ignore="UnusedAttribute" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/content_inset">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/lorem_ipsum_short"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_header" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/content_inset"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.4"
+                android:text="@string/lorem_ipsum_long"
+                android:textSize="@dimen/text_size_body" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

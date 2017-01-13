@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/content_inset"
+    android:paddingLeft="@dimen/content_inset_half"
+    android:paddingRight="@dimen/content_inset_half"
+    android:paddingTop="@dimen/content_inset">
+
+    <!-- It would look better if the images didn't have to have white backgrounds (but transparent PNGs instead) -->
+    <com.target.sharedtransitionplayground.view.GlideImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/image_thumbnail_size"
+        android:layout_height="@dimen/image_thumbnail_size"
+        android:background="@android:color/white"
+        tools:background="#80000000" />
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/content_inset"
+        android:layout_marginStart="@dimen/content_inset"
+        android:layout_toEndOf="@+id/image_view"
+        android:layout_toRightOf="@+id/image_view"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"
+        tools:text="Hello, world!" />
+
+</RelativeLayout>

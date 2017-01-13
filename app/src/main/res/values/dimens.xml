@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="content_inset">16dp</dimen>
+    <dimen name="content_inset_half">8dp</dimen>
+
+    <dimen name="image_thumbnail_size">64dp</dimen>
+    <dimen name="image_detail_size">172dp</dimen>
+
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_body">16sp</dimen>
+    <dimen name="text_size_header">24sp</dimen>
+
+</resources>

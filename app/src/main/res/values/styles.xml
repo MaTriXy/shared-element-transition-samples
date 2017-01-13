@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AppTheme.Parent" parent="Theme.AppCompat.Light" />
+
+    <style name="AppTheme.Splash.Parent" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="AppTheme" parent="AppTheme.Parent">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.ColoredBtn">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Splash" parent="AppTheme.Splash.Parent">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+</resources>

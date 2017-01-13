@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme.Parent" parent="Theme.AppCompat.Light">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.Splash.Parent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+
+</resources>
