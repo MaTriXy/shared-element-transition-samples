@@ -3,8 +3,8 @@
 This repo is a proof-of-concept sample, demoing the correct way to do shared element transitions
 between two Activities or two Fragments (going from a list to a detail view).
 
-<img src="https://git.target.com/AidanFollestad/shared-transition-playground/raw/master/showcase1.gif"
-    width="600" style="max-width: 600px" />
+<img src="https://github.com/afollestad/shared-element-transition-samples/raw/master/showcase1.gif"
+    width="600" style="max-width: 600px !important" />
 
 # Source Structure
 
